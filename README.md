@@ -13,7 +13,8 @@ Extract features from 3D image by 3D Patch Network.
  
          Input data: 
 	 
-                 3D images data/Patch_demo_ADNI_3Ddata
+            3D images data/Patch_demo_ADNI_3Ddata
+	    
  #3DCNN/main_0422_get_data.py for extracting the 3D Patch MRI and evaluate the BA_ACC for each patch
  
         Input data: 
