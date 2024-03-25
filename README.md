@@ -20,6 +20,10 @@ Extract features from 3D image by 3D Patch Network.
         Output data:
 	
             adni_gvcnn_train2_cn_ad_D_patch_400_label.mat 
-	    result_3d_cnn\result\fold-0\cnn_classification\new_selection\test_mode_cv5_level_metrics.csv (result for evaluate the test data, including Accuray, fscore, gmean, sensitivity and specificity)
+	    
+	    result_3d_cnn\result\fold-0\cnn_classification\new_selection\test_mode_cv5_level_metrics.csv (result for evaluate the test data for patch, including Accuray, fscore, gmean, sensitivity and specificity)
+
+            result_3d_cnn\result\fold-0\cnn_classification\new_selection\subject_performance.csv (Results from evaluating each scan using the max voting technique.)
+     
             result_3d_cnn\result\fold-0\cnn_labels\selection   (Predictions for each patch within every scan)
             
