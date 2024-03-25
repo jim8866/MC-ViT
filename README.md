@@ -9,22 +9,19 @@ Download all the zip files and extract all.
 
 Extract features from 3D image by 3D Patch Network.
 
- #3DCNN/main.py for training the 3D data
- 
-         Input data: 
-	 
-            3D images data/Patch_demo_ADNI_3Ddata
 	    
- #3DCNN/main_0422_get_data.py for extracting the 3D Patch MRI and evaluate the BA_ACC for each patch
+ #3DCNN/main_0422_get_data.py for extracting the 3D Patch MRI
  
         Input data: 
 	
-	    3D images data/Patch_demo_ADNI_3Ddata
+	    data/demo_demo_demo.nii.gz (Sample data from the test set)
+     	    data/demo.csv
      
         Output data:
 	
             adni_gvcnn_train2_cn_ad_D_patch_400_label.mat 
-	    
-            result/result~~~/fold-0/cnn_labels/section/cn_ad_label_test_slice.csv  for evaluating the BA_ACC for each patch
+	    result_3d_cnn\result\fold-0\cnn_classification\new_selection\test_mode_cv5_level_metrics.csv (result for evaluate the test data)
+            result_3d_cnn\result\fold-0\cnn_labels\selection   (Predictions for each patch within every scan)
+            
 	
 .P_Vote : Accuray, fscore, gmean, sensitivity and specificity  
