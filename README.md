@@ -10,7 +10,7 @@ Download all the zip files and extract all.
 
 Extract features from 3D image by 3D Patch Network.
 
- #3DCNN/main_0422_get_data.py for extracting the 3D Patch MRI
+ #3DCNN/main_get_data.py for extracting the 3D Patch MRI
  
         Input data: 
 	
